@@ -1,4 +1,4 @@
-* Snake:
+* PLAYER:
 _ Attributes:
 		+ w: int
 		+ h: int
@@ -14,9 +14,7 @@ _ Attributes:
 * Game:
 	_ atributes:
 		+ ball: dict
-		+ snake: Snake
-		+ speed: int
-		+ scoreboard: int
+		+ PLAYER: Snake
 	_ Methods:
 		+ DrawArena (): None
 		+ Update (): None
