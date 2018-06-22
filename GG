@@ -1,0 +1,24 @@
+* Snake:
+_ Attributes:
+		+ w: int
+		+ h: int
+		+ x: list
+		+ y: list
+		+ dir_x: int
+		+ dir_y: int
+	_ Methods:
+		+ move (pos): None
+		+ improveleght (): None
+		+ draw (): None
+		+ activeobject (ball): bool
+		+ getinwall (): bool
+		+hitback (): bool 
+* Game:
+	_ atributes:
+		+ ball: dict
+		+ snake: Snake
+		+ speed: int
+		+ scoreboard: int
+	_ Methods:
+		+ DrawArena (): None
+		+ Update (): None
