@@ -2,8 +2,6 @@
 _ Attributes:
 		+ w: int
 		+ h: int
-		+ x: list
-		+ y: list
 		+ dir_x: int
 		+ dir_y: int
 	_ Methods:
